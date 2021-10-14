@@ -1,0 +1,146 @@
+body{
+   box-sizing: border-box;
+   font-family: 'Roboto'; sans-serif
+}
+.header{
+   background-color: #EEEFF1;
+   padding: 79px 0 141px 0; 
+}
+.container{
+max-width: 1110px;
+margin-left:auto ;
+margin-right: auto;
+}
+.item{
+   display:inline-block ;
+   vertical-align: top;
+margin-right: 42px;
+}
+.link{
+   font-size: 16px;
+   line-height: 18px;
+   letter-spacing: 0.1em;
+   color: black;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+.link.active,
+.link:hover{
+   color: #34547A; 
+   font-weight: 500;
+}
+.navigation{
+margin-bottom:160px;
+}
+.tittle{
+ font-size: 48px;
+ font-weight: 500;
+ line-height: 60px;
+ color: black;
+ margin-bottom: 45px;
+}
+.description{
+   font-size: 16px;
+   line-height: 26px;
+   color: #727272;
+   width: 540px;
+   margin-bottom: 54px;
+}
+.button{
+   display: inline-block;
+   vertical-align: top;
+   background-color: #34547A;
+   color: #ffffff;
+   font-size: 16px;
+   line-height: 26px;
+   letter-spacing: 00.1em;
+   text-transform: uppercase;
+   text-decoration: none;
+padding: 19px 41px 20px 41px;
+}
+.button:hover{
+   background-color: #303f52;
+}
+.about{
+   color:#f9f9f9;
+   padding: 112px 0 89px 0;
+}
+
+.sub-title{
+   font-weight: 500;
+   font-size: 32px;
+   line-height: 38px;
+   text-align: center;
+   color: black; 
+   margin-bottom: 42px;
+}
+.description.center{
+   margin-left:auto;
+   margin-right: auto;
+   text-align: center;
+}
+.about .description{
+   margin-bottom: 0;
+}
+.cards{
+   background-color: rgba(52, 84, 122, 1);
+padding: 100px 0;
+} 
+.card-image{
+   display: inline-block;
+   vertical-align:top;
+   }
+   .card-info{
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 20px;
+      margin-top: 3px;
+   }
+   .card-title{
+      font-weight: 500;
+      font-size: 21px;
+      line-height: 24px;
+      color: #ffffff;
+      margin-bottom: 5px;
+   }
+.card-description{
+   font-size: 16px;
+   line-height: 18px;
+   color: #ffffff;
+}
+.card{
+   display: inline-block;
+   vertical-align: top;
+   margin-right: 45px;
+}
+.card:last-child{
+   margin-right: 0px;
+}
+.process{
+   background-color: #eeeff1;
+   padding: 100px 0;
+}
+.video{
+   width: 1110px;
+   height: 600px;
+   display: block;
+}
+.process .description{
+   margin-bottom: 46px;
+}
+.footer{
+   background-color: #34547A;
+   padding: 50px 0 47px 0;
+}
+.name{
+   font-weight: 500;
+   font-size: 21px;
+   line-height: 24px;
+   color: #ffffff;
+   margin-bottom: 15px;
+}
+.copyright{
+   font-size: 13px;
+   line-height: 15px;
+   color: #ffffff;
+}
